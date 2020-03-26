@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: credhub
+  cloud:
+    config:
+      server:
+        credhub:
+          url: https://credhub:8844
